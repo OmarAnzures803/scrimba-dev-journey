@@ -1,2 +1,12 @@
-# scrimba-dev-journey
-Este es un repositorio donde coloco todo lo que aprendo en scrimba, javascript, react, typescript, y mas. Es únicamente para mostrar mi avance como desarrollador, mostrar errores y logros, TODO.
+
+MI CAMINO COMO DESARROLLADOR
+
+Este repositorio como habia mencionado en la descripcion de este es unicamente para hacer registro de todo lo que hago en scrimba, ejercicios, proyectos y recursos.  
+
+CONTENIDO
+
+**01-javascript** - Fundamentos de JavaScript, variables, id, DOM, y proyectos interactivos.
+
+
+
+
