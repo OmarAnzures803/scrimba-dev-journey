@@ -1,0 +1,46 @@
+.title{
+  color: #121212;
+}
+.img{
+  width: 380px;
+  border: 3px solid;
+}
+.text{
+  width: 380px;
+  margin-inline: auto;
+}
+.btn1{
+  border: 3px solid #121212;
+  display: block;
+  padding-inline: 25px;
+  padding-block: 8px;
+  margin: 8px;
+  margin-inline: auto;
+  background-color: white;
+  color: darkgray;
+  font-weight: 600;
+  width: 100%;
+}
+.btn2{
+  border: 3px solid #121212;
+  display: block;
+  padding-inline: 25px;
+  padding-block: 8px;
+  margin: 8px;
+  margin-inline: auto;
+  background-color: #121212;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+}
+.divaso{
+  text-align: center;
+  width: 250px;
+  margin-inline: auto;
+}
+.boti{
+  text-align: center;
+}
+.ala{
+  text-decoration: underline;
+}
