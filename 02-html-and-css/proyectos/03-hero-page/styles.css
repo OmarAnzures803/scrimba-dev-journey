@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+.tit{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    color: #020202;
+}
+
+.coso{
+  padding-block: 5px;  
+}
+
+.art{
+    width: 220px;
+    padding: 30px;
+}
+
+.arp{
+    background-image: url("img/faded-office.png");
+    background-size: cover;
+    height: 400px;
+    align-content: center;
+}
+
+body{
+    margin: 0;
+}
+p span{
+    border-bottom: 4px solid deepskyblue;
+}
+
+.btn{
+    background-color:deepskyblue;
+    border: none;
+    padding-inline: 25px;
+    padding-block: 15px;
+    color: white;
+    font-weight: 700;
+}
