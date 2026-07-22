@@ -1,0 +1,43 @@
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61;
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: cen; */
+    height: 200px;
+    text-align: center;
+}
+.button-border{
+    margin-inline: auto;
+}
+.button{
+    padding: 25px 45px;
+    background-color: #000;
+    color: #cbcbcb;
+}
+.button-border:hover{
+    background: linear-gradient(to left, var(--grad-color1), var(--grad-color2), var(--grad-color3),var(--grad-color4), var(--grad-color5));
+}
+.button-border{
+    
+    padding: 6px;
+    background: linear-gradient(to right, var(--grad-color1), var(--grad-color2), var(--grad-color3),var(--grad-color4), var(--grad-color5));
+}

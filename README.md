@@ -5,6 +5,8 @@ Este repositorio como habia mencionado en la descripcion de este es unicamente p
 CONTENIDO
 
 **01-javascript** - Fundamentos de JavaScript, variables, id, DOM, y proyectos interactivos.
-**02-html-and-css** -
+**02-html-and-css** - Etiquetas basicas, estructura html, sintaxis css basica, css flexbox basico, margenes, padding, bordes y despliegue en vercel.
+**03-css-challenges**-
 
 ![alt text](image.png)
+![alt text](image-1.png)
