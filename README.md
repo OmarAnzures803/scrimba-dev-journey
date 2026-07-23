@@ -6,7 +6,7 @@ CONTENIDO
 
 **01-javascript** - Fundamentos de JavaScript, variables, id, DOM, y proyectos interactivos.
 **02-html-and-css** - Etiquetas basicas, estructura html, sintaxis css basica, css flexbox basico, margenes, padding, bordes y despliegue en vercel.
-**03-css-challenges**-
+**03-css-challenges** - Animaciones, nuevas propiedades, buenas practicas y refuerzo de estilos.
 
 ![alt text](image.png)
 ![alt text](image-1.png)

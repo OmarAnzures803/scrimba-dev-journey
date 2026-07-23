@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    
+    width: 32px;
+    height: 32px;
+    margin-inline: 10px;
+    animation: infinite animaZion 2s;
+}
+@keyframes animaZion{
+    from{
+        transform: rotate(45deg);
+    }
+    to {
+        transform: rotate(135deg);
+    }
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square1{
+    background-color: red;
+}
+.square2{
+    background-color: orange;
+}
+.square3{
+    background-color: blue;
+}
+
