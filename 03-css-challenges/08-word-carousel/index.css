@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-word: #5134ff;
+}
+
+.container{
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.textito::after{
+    color: white;
+    text-align: center;
+    margin-left: 12px;
+    padding: 8%;
+    border-radius: 18px;
+    align-content: center;
+    background-color: #5134ff;
+    content: "";
+    animation: cambiarTexto 6s infinite;
+}
+@keyframes cambiarTexto {
+    0% {
+        content: "videogames";
+    }
+    25%{
+        content: "tacos";
+    }
+    50%{
+        content: "tamales";
+    }
+    75%{
+        content: "burritos";
+    }
+    100%{
+        content: "videogames";
+    }
+}
