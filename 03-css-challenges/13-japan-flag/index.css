@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+:root {
+    --white: #FFFFFF;
+    --red: #BC022C;
+    --flag-height: 200px;
+}
+.flag{
+    background-color: #FFFFFF;
+    height: var(--flag-height);
+    width: calc(var(--flag-height)*3/2);
+    margin-inline: auto;
+    margin-top: 50px;
+    align-content: center;
+}
+.circle{
+    width: calc(var(--flag-height)/5*3);
+    height: calc(var(--flag-height)/5*3);
+    background-color: #BC022C;
+    border-radius: 50%;
+    margin-inline: auto;
+}
+
+
+
+
