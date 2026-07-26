@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+:root {
+    --blue: #0269A6;
+    --yellow: #FECC00;
+    --flag-height: 150px;
+} 
+.flag{
+    background-color: #0269A6;
+    height: var(--flag-height);
+    width: calc(var(--flag-height)/5*8);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.stripe{
+    background-color: #FECC00;
+}
+.stripe-yellow{
+    height: calc(var(--flag-height)/10*2);
+    width: 100%;
+}
+.stripe-yellow2{
+    height: var(--flag-height);
+    left: calc((var(--flag-height) / 10) * 5);
+    position: absolute;
+    width: calc(var(--flag-height)/10*2);
+}
