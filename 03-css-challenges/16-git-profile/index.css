@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #c9d1d9;
+}
+
+:root {
+    --font-main: 'Noto Sans', sans-serif;
+    --main-bg: #000;
+    --profile-bg: #0d1117;
+    --profile-color: #c9d1d9;
+    --profile-img-border: #2e343b;
+    --username-font-color: #8b949e;
+    --username-font-weight: 400;
+    --btn-bg: #21262d;
+    --btn-color: #c9d1d9;
+    --btn-bg-hover: #30363d;
+    --btn-border: #373b43;
+    --btn-border-hover: #8c949e;
+}
+
+.imagensita {
+    border-radius: 50%;
+    width: 300px;
+    border: 2px solid #2e343b;
+}
+.profile-content{
+    background-color: #0d1117;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+    max-width: 310px;
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.tite{
+    margin-bottom: 2px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+.subtite {
+    margin:0;
+    font-weight:100;
+    color: #8b949e;
+    font-size: 16px;
+}
+#texTi {
+    font-size: 18px;
+}
+#butonCito {
+    width: 100%;
+    background-color: #21262d;
+    border-radius: 8px;
+    padding-block: 4px;
+    color: #c9d1d9;
+    border: 1px solid #373b43;
+    font-weight:lighter;
+    margin-bottom: 8px;
+}
+#butonCito:hover {
+    background-color: #30363d;
+    color: #c9d1d9;
+    border: 1px solid #8c949e;
+}
