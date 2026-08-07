@@ -1,0 +1,79 @@
+body, html {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+} 
+
+:root {
+  --spinner: #f3f3f3;
+  --spinner-active: purple;
+}
+/* Mi solucion : */
+.container{
+  background-color: #f3f3f3;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.cosi{
+  width: 120px;
+  height: 120px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin: 65px 65px;
+  padding-left: 0px ;
+  padding-bottom: 0px ;
+}
+.loader{
+  background-color: #fff;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+}
+.prueba{
+  width: 100px;
+  height: 100px;
+  animation: aniM infinite ease-in-out 3s;
+}
+@keyframes aniM{
+  from{
+    rotate: 0gra;
+  }
+  to{
+    rotate: 400grad;
+  }
+}
+/* Como era el ejercicio: */
+.spinner {
+    width: 120px;
+    height: 120px;
+    border: 20px solid gainsboro;
+    border-top-color: green;
+    border-radius: 50%;
+
+    animation: spin 1s linear infinite;
+    margin-right: 50px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.conT{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  
+}
